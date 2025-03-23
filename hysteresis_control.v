@@ -5,10 +5,8 @@ module hysteresis_control (
     output logic can_move_fwd     
 );
 
-    
     parameter logic [11:0] V_High = 12'd300;
     parameter logic [11:0] V_Low = 12'd1000;
-
    
     logic can_move_fwd_reg;
 
